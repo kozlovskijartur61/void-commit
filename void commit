@@ -1,0 +1,3 @@
+ public void commit(String message) {
+        String commitId = currentBranch + "_commit_" + (branches.get(currentBranch).length + 1);
+   String[] updatedCommits = new 
